@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.12">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ОстаткиГСМ" id="a4c674de-1663-4203-92d3-26b7d6278d3f" configVersion="8c30e11705982e46b055169d70e3bd2f00000000">
+			<Metadata name="AccumulationRegister.ОстаткиГСМ.Resource.Количество" id="28845c4f-adad-49c3-9669-1b5eb7e77635"/>
+			<Metadata name="AccumulationRegister.ОстаткиГСМ.Dimension.ТС" id="5cb1442c-f71b-41e1-bd5d-f4a6729fa433"/>
+			<Metadata name="AccumulationRegister.ОстаткиГСМ.Dimension.ВидГСМ" id="c02b232a-3818-4457-97d3-21f9d07e1194"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.ПараметрыРаботыТС" id="f73877c4-68bb-4678-845b-ab31749323fe" configVersion="a2d796d885d3f048ad6258aaf261626400000000">
+			<Metadata name="AccumulationRegister.ПараметрыРаботыТС.Resource.Пробег" id="03d37055-4997-43f9-b52c-1fb2f8daeaea"/>
+			<Metadata name="AccumulationRegister.ПараметрыРаботыТС.Resource.ОтработаноЧасов" id="61709e1e-6407-4fd5-8208-70747d2db570"/>
+			<Metadata name="AccumulationRegister.ПараметрыРаботыТС.Resource.РасходГСМНорма" id="63453ea5-aef7-45ac-9e22-dfc13c524203"/>
+			<Metadata name="AccumulationRegister.ПараметрыРаботыТС.Dimension.Водитель" id="779c4618-771d-4cc2-a7e6-33d95dd8330c"/>
+			<Metadata name="AccumulationRegister.ПараметрыРаботыТС.Dimension.ТС" id="d914aa52-d625-4264-8e28-a8890b21400a"/>
+			<Metadata name="AccumulationRegister.ПараметрыРаботыТС.Resource.РасходГСМФакт" id="dabd28b2-329c-41a7-9b38-4e3d2c1998d7"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыТоплива" id="84dba398-424e-4bff-8366-f7b73e9ec79d" configVersion="297880910884b74eb88dad91f0fb67fb00000000"/>
+		<Metadata name="Catalog.ВидыТоплива.Predefined" id="84dba398-424e-4bff-8366-f7b73e9ec79d.1c" configVersion="71fdc66b5aec0a4d9c469e0d07942ed200000000"/>
+		<Metadata name="Catalog.Водители" id="f69869ce-33b8-4283-a45d-2b3f386822f0" configVersion="285949333b68544a9b163799fa685b3200000000">
+			<Metadata name="Catalog.Водители.Attribute.ФизЛицо" id="1acb5c5f-23de-4465-9151-fdfebd623b0f"/>
+			<Metadata name="Catalog.Водители.Attribute.Тариф" id="5ea911c4-8cd4-4462-9cbc-a5d7bf20e4cb"/>
+		</Metadata>
+		<Metadata name="Catalog.МоделиТС" id="1ec040e7-7055-4d95-a62c-28a34c8139a4" configVersion="205131c8a0d13e479d83833283b925ea00000000">
+			<Metadata name="Catalog.МоделиТС.Attribute.НормаЗима" id="161ac748-2750-45b6-9368-4d8245f8732b"/>
+			<Metadata name="Catalog.МоделиТС.Attribute.НормаЛето" id="bc6a547a-f6f4-4420-90bd-fdea976881cf"/>
+			<Metadata name="Catalog.МоделиТС.Attribute.Топливо" id="fbd959e6-92fc-4a53-928f-ec018240a4d3"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклатура" id="4b7b9be0-9ce6-41d1-a8e6-a00a9ae4d9ad" configVersion="833311fa0b993a4f9b1879daf3c51ccc00000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.Вид" id="57f82974-a0df-45be-90f9-4d3888af0cac"/>
+		</Metadata>
+		<Metadata name="Catalog.ТранспортныеСредства" id="3ff367f0-e21c-4565-b20b-14a5b0f27be2" configVersion="6374ecd5f3a83a44ba1abeb1be9d3a3c00000000">
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.Госномер" id="22804ff0-bf8e-44ab-9b9c-c745b8bf7a5d"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.Модель" id="dd7c78b0-6e5d-40be-8617-1dd229f5edda"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.VIN" id="e35bc013-a7ed-4c43-8c37-ea36a2c35001"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.Водитель" id="e73c0423-e0bb-4f76-83bd-d78cd9bd0827"/>
+		</Metadata>
+		<Metadata name="Catalog.ФизЛица" id="7771a5a5-5ec8-418f-8641-675a9b10d0a1" configVersion="3109c741043aea4fa04568ea4f62b90700000000">
+			<Metadata name="Catalog.ФизЛица.Attribute.НомерВУ" id="9c6c7119-cafb-4f57-9f0e-6204b3739107"/>
+			<Metadata name="Catalog.ФизЛица.Attribute.НомерПаспорта" id="b1509b71-74a7-4981-893e-c2078b8449bc"/>
+			<Metadata name="Catalog.ФизЛица.Attribute.ДатаРожд" id="d58f744d-4ad1-4c85-aaf2-5adc1a8aa45a"/>
+			<Metadata name="Catalog.ФизЛица.Attribute.Пол" id="e855303c-939b-4ed3-9515-d704a03f5a0c"/>
+			<Metadata name="Catalog.ФизЛица.Attribute.Фото" id="e869b048-d74b-4358-bb3b-6cb329a286bd"/>
+		</Metadata>
+		<Metadata name="Catalog.ФизЛица.Form.ФормаЭлемента" id="873c1ea5-83d1-443b-87c8-ea2391cf6e0d" configVersion="5b826663c1643541ac643b048666c59a00000000"/>
+		<Metadata name="Catalog.ФизЛица.Form.ФормаЭлемента.Form" id="873c1ea5-83d1-443b-87c8-ea2391cf6e0d.0" configVersion="8832b60f95b60747a4132ef9c07f748100000000"/>
+		<Metadata name="Catalog.ФотоПользователей" id="eb0531f5-5d26-4541-bb46-0e1367129d64" configVersion="afbcef8587473d4d85fecff22e3dac2900000000">
+			<Metadata name="Catalog.ФотоПользователей.Attribute.ФайлФото" id="3438e651-8a00-4bc2-83a8-f86d1513b6a4"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="53b86f50-6d87-4d27-986c-f32331968cf6" configVersion="34f4aae4d48bb14f9410a1fcd0644ec400000000"/>
+		<Metadata name="Document.Заправка" id="962bc29a-352f-426f-b9ac-107c514a428f" configVersion="47031076730ee64294bf66d26f0298dc00000000">
+			<Metadata name="Document.Заправка.Attribute.Литры" id="76576624-ccd8-40f0-a92e-6de1fada95ab"/>
+			<Metadata name="Document.Заправка.Attribute.Автомобиль" id="b0be38d4-6fa3-4b3d-ac44-1d9a5788fbb3"/>
+		</Metadata>
+		<Metadata name="Document.Заправка.ObjectModule" id="962bc29a-352f-426f-b9ac-107c514a428f.0" configVersion="cad5cb5373854f418468ece271f66ecf00000000"/>
+		<Metadata name="Document.ПутевойЛист" id="9a6aa8e7-c4e4-44a2-83e7-891164c6ef6b" configVersion="afd1fde9c88ac548b54c0cf8ac2e867600000000">
+			<Metadata name="Document.ПутевойЛист.Attribute.Водитель" id="172f7924-42bf-4268-9c55-2eeab279e577"/>
+			<Metadata name="Document.ПутевойЛист.Attribute.ТопливоПриВыезде" id="33c87516-0f48-4115-84fd-2017bc5fe634"/>
+			<Metadata name="Document.ПутевойЛист.Command.Печать" id="68796b98-ebc4-43a5-b379-4d82e08adea3"/>
+			<Metadata name="Document.ПутевойЛист.Attribute.Автомобиль" id="7d0f2cba-8336-4387-a62d-7f0dc976bce0"/>
+			<Metadata name="Document.ПутевойЛист.Attribute.ТопливоПоПриезду" id="826948c5-b77e-4f8a-8fe7-09186558bf9d"/>
+		</Metadata>
+		<Metadata name="Document.ПутевойЛист.Command.Печать.CommandModule" id="68796b98-ebc4-43a5-b379-4d82e08adea3.2" configVersion="4ded6b8b0a09f04f878b218b41c3b64d00000000"/>
+		<Metadata name="Document.ПутевойЛист.Form.ФормаДокумента" id="8d230bb9-8806-4f64-bbd7-04a58d1794aa" configVersion="ddc56712626c154d923d0a7001cb214300000000"/>
+		<Metadata name="Document.ПутевойЛист.Form.ФормаДокумента.Form" id="8d230bb9-8806-4f64-bbd7-04a58d1794aa.0" configVersion="88145dd18f090744a98c1d48b461a21700000000"/>
+		<Metadata name="Document.ПутевойЛист.ManagerModule" id="9a6aa8e7-c4e4-44a2-83e7-891164c6ef6b.2" configVersion="180d315eec575942a759876aa15496ae00000000"/>
+		<Metadata name="Document.ПутевойЛист.Template.Печать" id="cc681436-ac32-4245-99b6-25fd2c93a282" configVersion="7a7c7fd0392091409a3595e086264e7d00000000"/>
+		<Metadata name="Document.ПутевойЛист.Template.Печать.Template" id="cc681436-ac32-4245-99b6-25fd2c93a282.0" configVersion="0c02daf545ed6a4987316e27d2c5572000000000"/>
+		<Metadata name="Enum.ВидыТоваров" id="74f254a3-2c15-498e-8cf3-7249bf6c2eb0" configVersion="a9aa291b6b98d241ac4ab375aeca7b1800000000">
+			<Metadata name="Enum.ВидыТоваров.EnumValue.Прочее" id="2807bd4a-8529-420a-b601-d1cfccb27276"/>
+			<Metadata name="Enum.ВидыТоваров.EnumValue.ГСМ" id="481befbe-de64-49d9-800a-92057f9e20d4"/>
+			<Metadata name="Enum.ВидыТоваров.EnumValue.Запчасти" id="562be70b-93d2-4adb-bd59-4c16370d2524"/>
+			<Metadata name="Enum.ВидыТоваров.EnumValue.Услуги" id="790ff47c-9234-40ee-bb4e-97884e0a2fd2"/>
+			<Metadata name="Enum.ВидыТоваров.EnumValue.Товары" id="95bd9c09-6cde-46f3-b8b4-16a25f3f5c90"/>
+		</Metadata>
+		<Metadata name="Enum.Пол" id="0d43a540-ba04-4830-ada7-cbce3fd10279" configVersion="dc85a8b69f74434db7d1ea1eaf4d881600000000">
+			<Metadata name="Enum.Пол.EnumValue.М" id="03a251ac-61a6-4db9-a929-d08315b57d1c"/>
+			<Metadata name="Enum.Пол.EnumValue.Ж" id="2a65ab0d-66f1-4cae-95a8-1c363eae2945"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПоказанияСпидометра" id="337889b4-c7d8-4bdf-8ed9-a40b7cb5b1db" configVersion="8abd26e1ee96674b9b92f850b664943100000000">
+			<Metadata name="InformationRegister.ПоказанияСпидометра.Resource.Пробег" id="270c067b-ea76-4134-b394-3cae0c839388"/>
+			<Metadata name="InformationRegister.ПоказанияСпидометра.Dimension.ТС" id="ae7f1cb3-36d1-4d70-850a-b479590203a9"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПоказанияСпидометра.Form.ФормаРСВ" id="232bda67-618d-4f1d-a29e-42043fd8231e" configVersion="ef52861f543e6f4a9a0c926ea481782500000000"/>
+		<Metadata name="InformationRegister.ПоказанияСпидометра.Form.ФормаРСВ.Form" id="232bda67-618d-4f1d-a29e-42043fd8231e.0" configVersion="420be6b81dda254d93fa610823b8e29000000000"/>
+		<Metadata name="Language.Русский" id="60e03165-3c2e-4836-8de8-84e0793e8910" configVersion="e7de73224086d1489c23477de31eaf0200000000"/>
+		<Metadata name="Report.ОтчетПоОстаткамГСМ" id="2a590bfd-9067-4ec9-a0bd-cf446d166e9f" configVersion="cc2e3992ffe71141ad45fdbbc11cea6c00000000"/>
+		<Metadata name="Report.ОтчетПоОстаткамГСМ.Template.ОсновнаяСхемаКомпоновкиДанных" id="d411d667-2589-44b1-acf9-96186883cf48" configVersion="f4ade52105318749afaf0405d8895cbd00000000"/>
+		<Metadata name="Report.ОтчетПоОстаткамГСМ.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="d411d667-2589-44b1-acf9-96186883cf48.0" configVersion="ff9fd88053e3dd4b86a44527e8b12bc000000000"/>
+		<Metadata name="Role.ПолныеПрава" id="32f88a83-314c-4f66-aa30-02fdf8e97cca" configVersion="90980f42316f934790cd48713dcc060600000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="32f88a83-314c-4f66-aa30-02fdf8e97cca.0" configVersion="071f7e1a9ea14040b7b1e286a86a57eb00000000"/>
+		<Metadata name="Role.ПраваНаЗаполнениеЗаправки" id="1715d855-0f7e-4e02-b398-ce485db8c65c" configVersion="173d45f8f647e54a9b17b9ff2b466a3000000000"/>
+		<Metadata name="Role.ПраваНаЗаполнениеЗаправки.Rights" id="1715d855-0f7e-4e02-b398-ce485db8c65c.0" configVersion="ac1dcd5cbde25144ac61fcac908cce4300000000"/>
+		<Metadata name="Role.ПраваНаЗаполнениеПутевогоЛиста" id="8e921364-d87c-4493-ac88-f9bbaa1070f8" configVersion="d8e263f4ba89bb44b4c92cfbc9e57c2100000000"/>
+		<Metadata name="Role.ПраваНаЗаполнениеПутевогоЛиста.Rights" id="8e921364-d87c-4493-ac88-f9bbaa1070f8.0" configVersion="af458af8eaae0841bd6f8e6011ffa1c300000000"/>
+		<Metadata name="Role.ПраваНаОткрытиеВнешнихОбработок" id="5905bd65-8e25-4884-86a8-f039122718ad" configVersion="62c20b6f743a294997792aa99e4377a800000000"/>
+		<Metadata name="Role.ПраваНаОткрытиеВнешнихОбработок.Rights" id="5905bd65-8e25-4884-86a8-f039122718ad.0" configVersion="881619d295aa614a89636f636d9428b700000000"/>
+		<Metadata name="SessionParameter.ТекущийПользователь" id="0fa7557f-5f70-447f-aebf-3c7c06623dc9" configVersion="3ed86a094e994e40870879a30567d13c00000000"/>
+		<Metadata name="Subsystem.Автопарк" id="c6948ac5-7d9a-4faf-b033-a5ad5256ed04" configVersion="2532f1ac1588b84981feb9a818bec4b500000000"/>
+		<Metadata name="Subsystem.Документы" id="59150e47-31e9-4163-9d4d-efa0460788cf" configVersion="97b385c114036f4ca7af0224833476fd00000000"/>
+		<Metadata name="Subsystem.Отчеты" id="bd8347ed-7b8b-4009-8e56-bc781109e0ed" configVersion="93e510a9ffb3834abaa9434aa7b7244e00000000"/>
+		<Metadata name="Subsystem.Сотрудники" id="03bfb825-bacd-4970-9ea9-689adc8511c3" configVersion="cde1f7e12649dd4d9880dae55c42949100000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
